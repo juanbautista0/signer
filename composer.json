@@ -1,0 +1,30 @@
+{
+  "name": "juanbautista0/signer",
+  "description": "Firma de los Documentos XML de Facturación Electrónica DIAN",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Juanbautista0\\Signer\\": "src/"
+    },
+    "files": [
+      "functions.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "juanbautista0",
+      "email": "soyjuanbautista0@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=8.1",
+    "phpunit/phpunit": "^6.1"
+  },
+  "require-dev": {
+    "php": ">=8.1",
+    "phpunit/phpunit": "^6.1",
+    "orchestra/testbench": "^3.4"
+  }
+}
