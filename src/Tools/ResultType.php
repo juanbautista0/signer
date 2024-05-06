@@ -1,5 +1,8 @@
 <?php
 
+namespace Juanbautista0\Signer;
+
+use Error;
 
 final class ResultType
 {

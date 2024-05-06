@@ -1,4 +1,5 @@
 <?php
+namespace Juanbautista0\Signer;
 
 
 final class CertificateHandler

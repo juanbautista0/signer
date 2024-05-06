@@ -1,5 +1,11 @@
 <?php
 
+namespace Juanbautista0\Signer;
+
+use DOMDocument;
+use Error;
+use Exception;
+
 final class Policy
 {
     public string | null $signedXml = null;
